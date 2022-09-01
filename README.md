@@ -1,5 +1,9 @@
 # NDLGNMLTRL - Aplikasi Login Multi Role dengan Node.js
 
+## Software Apakah Ini?
+
+NDLGNMLTRL adalah Aplikasi Login Multi Role dengan Node.js.
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba kode ini, download folder ini.
