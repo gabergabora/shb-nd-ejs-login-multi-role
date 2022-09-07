@@ -1,3 +1,5 @@
+// script ini adalah mongoose schema untuk user.
+
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 

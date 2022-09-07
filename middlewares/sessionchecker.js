@@ -1,3 +1,6 @@
+// script ini untuk middleware.
+
+// untuk mengecek apakah sudah login.
 module.exports.loggedInCheck = (req, res, next) => {
     if (req.session.isLoggedIn) {
         return res.redirect("/member");
@@ -5,6 +8,7 @@ module.exports.loggedInCheck = (req, res, next) => {
     next();
 }
 
+// untuk mengecek role.
 module.exports.authCheck = (roles) => {
     return (req, res, next) => {
         const testLoggedIn = req.session.isLoggedIn;
