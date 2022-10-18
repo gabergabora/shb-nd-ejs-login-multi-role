@@ -1,12 +1,12 @@
-# NDLGNMLTRL - Aplikasi Login Multi Role dengan Node.js
+# shb-nd-ejs-login-multi-role - Aplikasi Login Multi Role dengan Node.js
 
 ## Software Apakah Ini?
 
-NDLGNMLTRL adalah Aplikasi Login Multi Role dengan Node.js.
+shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js.
 
 ## Screenshot
 
-![ScreenShot](.readme-assets/NDLGMLTRL-1.png?raw=true)
+![ScreenShot](.readme-assets/shb-nd-ejs-login-multi-role-1.png?raw=true)
 
 ## Cara Mencoba Kode Ini
 
