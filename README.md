@@ -1,5 +1,9 @@
 # shb-nd-ejs-login-multi-role - Aplikasi Login Multi Role dengan Node.js
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
 ## Software Apakah Ini?
 
 shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js.
