@@ -1,12 +1,5 @@
 # shb-nd-ejs-login-multi-role - Aplikasi Login Multi Role dengan Node.js
 
-## Link-Link Penting
-
-- SOFTWARE GRATIS: https://shbfrlnc.github.io/
-- BLOG: https://shbfrlnc.github.io/tags/blog/
-- PENGUMUMAN: https://shbfrlnc.github.io/tags/pengumuman/
-- DUKUNG: https://shbfrlnc.github.io/dukung.html
-
 ## Software Apakah Ini?
 
 shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js.
