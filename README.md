@@ -10,7 +10,15 @@ shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js.
 
 ## Cara Mencoba Kode Ini
 
-Untuk mencoba kode ini, masuk ke dalam folder ini via terminal.
+### Cara Mencoba server-mongoose
+
+Untuk mencoba kode server-mongoose, masuk ke dalam folder server-mongoose via command line.
+
+Selanjutnya, buat file .env di dalam foldernya.
+
+Selanjutnya, konfigurasi database setting dan lainnya di file .env sesuai dengan .env-example.
+
+Kode server-mongoose membutuhkan MongoDB, jadi pastikan Anda telah menginstallnya dan membuat databasenya sesuai konfigurasi tadi.
 
 Selanjutnya, jalankan:
 
@@ -23,6 +31,40 @@ Selanjutnya, jalankan:
 ```
 npm run dev
 ```
+
+Terakhir, buka browser Anda ke alamat yang tertera di BASE_URL yang ada di .env.
+
+### Cara Mencoba server-knex
+
+Untuk mencoba kode server-knex, buat file .env di dalam foldernya.
+
+Selanjutnya, isi .env sesuai .env-example, di sini Anda bisa mengubah port.
+
+Adapun konfigurasi database server-knex bisa dilakukan di /db/knexfile.js.
+
+Kode server-knex membutuhkan MySQL, jadi pastikan Anda telah menginstallnya dan membuat databasenya sesuai konfigurasi tadi.
+
+Sekarang, pastikan Anda berada dalam folder server-knex.
+
+Selanjutnya, jalankan:
+
+```
+npm install
+```
+
+Selanjutnya, jalankan:
+
+```
+npm run db:refresh
+```
+
+Selanjutnya, jalankan:
+
+```
+npm run dev
+```
+
+Terakhir, buka browser Anda ke alamat yang tertera di BASE_URL yang ada di .env.
 
 ## Pendahuluan
 
