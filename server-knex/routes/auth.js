@@ -4,7 +4,7 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
 const sessionChecker = require("../middlewares/sessionchecker");
-const knex = require("../db/connection");
+const knex = require("../databases/connection");
 // end: import modules
 
 // buat router nya

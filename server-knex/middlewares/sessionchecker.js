@@ -1,7 +1,7 @@
 // script ini untuk middleware.
 
 // begin: import modules
-const knex = require("../db/connection");
+const knex = require("../databases/connection");
 // end: import modules
 
 // untuk mengecek apakah sudah login.

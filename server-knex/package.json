@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon -e js,ejs,html -w . -w models -w routes -w views app.js",
-    "db:refresh": "npx knex migrate:rollback --knexfile ./db/knexfile.js && npx knex migrate:latest --knexfile ./db/knexfile.js"
+    "db:refresh": "npx knex migrate:rollback --knexfile ./databases/knexfile.js && npx knex migrate:latest --knexfile ./databases/knexfile.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

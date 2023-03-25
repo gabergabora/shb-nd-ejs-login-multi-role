@@ -38,9 +38,7 @@ Terakhir, buka browser Anda ke alamat yang tertera di BASE_URL yang ada di .env.
 
 Untuk mencoba kode server-knex, buat file .env di dalam foldernya.
 
-Selanjutnya, isi .env sesuai .env-example, di sini Anda bisa mengubah port.
-
-Adapun konfigurasi database server-knex bisa dilakukan di /db/knexfile.js.
+Selanjutnya, isi .env sesuai .env-example. Di sini Anda bisa mengubah port, environment, dan detail database.
 
 Kode server-knex membutuhkan MySQL, jadi pastikan Anda telah menginstallnya dan membuat databasenya sesuai konfigurasi tadi.
 

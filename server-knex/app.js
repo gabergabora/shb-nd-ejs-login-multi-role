@@ -5,10 +5,11 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
 const url = require("url");
+require("dotenv").config();
+
 const indexRouter = require("./routes/index");
 const authRouter = require("./routes/auth");
 const memberRouter = require("./routes/member");
-require("dotenv").config();
 // end: import modules
 
 // inisialisasi express
