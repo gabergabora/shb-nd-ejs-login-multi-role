@@ -2,7 +2,7 @@
 
 ## Software Apakah Ini?
 
-shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js.
+shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js...
 
 ## Screenshot
 
