@@ -4,9 +4,23 @@
 
 shb-nd-ejs-login-multi-role adalah Aplikasi Login Multi Role dengan Node.js...
 
-## Screenshot
+Aplikasi ini juga memperlihatkan penggunaan middleware sebagai cara untuk memfilter user.
 
-![ScreenShot](.readme-assets/shb-nd-ejs-login-multi-role-1.png?raw=true)
+## Cara Kerja
+
+Aplikasi ini menggunakan sistem login pada umumnya.
+
+Pertama-tama user harus register dahulu.
+
+Untuk enkripsi password-nya digunakan bcrypt.
+
+Setelah login, user dapat mengakses member area.
+
+Di member route, dilakukan filtering terhadap user.
+
+Proses filtering dilakukan dengan menggunakan middleware.
+
+Middleware yang saya gunakan dirancang untuk bisa memfilter beberapa role.
 
 ## Cara Mencoba Kode Ini
 
@@ -64,28 +78,6 @@ npm run dev
 
 Terakhir, buka browser Anda ke alamat yang tertera di BASE_URL yang ada di .env.
 
-## Pendahuluan
+## Screenshot
 
-Kali ini, saya akan memberi contoh aplikasi login yang mendukung banyak role dengan Node.js.
-
-Aplikasi ini juga memperlihatkan penggunaan middleware sebagai cara untuk memfilter user.
-
-## Cara Kerja
-
-Aplikasi ini menggunakan sistem login pada umumnya.
-
-Pertama-tama user harus register dahulu.
-
-Untuk enkripsi password-nya digunakan bcrypt.
-
-Setelah login, user dapat mengakses member area.
-
-Di member route, dilakukan filtering terhadap user.
-
-Proses filtering dilakukan dengan menggunakan middleware.
-
-Middleware yang saya gunakan dirancang untuk bisa memfilter beberapa role.
-
-## Struktur Project
-
-Untuk melihat struktur project aplikasi ini, silakan buka project ini di text editor.
+![ScreenShot](.readme-assets/shb-nd-ejs-login-multi-role-1.png?raw=true)
